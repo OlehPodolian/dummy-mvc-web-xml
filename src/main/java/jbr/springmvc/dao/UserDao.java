@@ -3,6 +3,9 @@ package jbr.springmvc.dao;
 import jbr.springmvc.model.Login;
 import jbr.springmvc.model.User;
 
+/**
+ *  Defines the repository facade
+ */
 public interface UserDao {
 
     void register(User user);
