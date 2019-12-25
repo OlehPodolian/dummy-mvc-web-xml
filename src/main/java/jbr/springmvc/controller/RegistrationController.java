@@ -21,13 +21,13 @@ public class RegistrationController {
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.GET)
-    public ModelAndView showRegister(HttpServletRequest request, HttpServletResponse response) {
+    public final ModelAndView showRegister(HttpServletRequest request, HttpServletResponse response) {
         ModelAndView mav = new ModelAndView("register");
         mav.addObject("user", new User());
         return mav;
     }
     @RequestMapping(value = "/registerProcess", method = RequestMethod.POST)
-    public ModelAndView addUser(HttpServletRequest request, HttpServletResponse response,
+    public final ModelAndView addUser(HttpServletRequest request, HttpServletResponse response,
                                 @ModelAttribute("user") User user) {
         userService.register(user);
         return new ModelAndView("welcome", "firstName", user.getFirstName());
