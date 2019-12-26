@@ -6,6 +6,7 @@
     <title>Welcome</title>
 </head>
 <body>
+<h2>Version 2</h2>
 <table align="center">
     <tr>
         <td><a href="login">Login</a>
