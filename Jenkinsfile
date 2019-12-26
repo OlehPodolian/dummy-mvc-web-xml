@@ -20,5 +20,23 @@ pipeline {
                 build job: 'tomcat-deploy'
             }
          }
+         stage('Deploy to production') {
+            steps {
+                timeout(time: 5, unit:'DAYS') {
+                    input message: 'Approve production Deploy'
+                }
+
+                build job: 'deploy-to-prod'
+            }
+            post {
+                success {
+                    echo 'Code deployed to production.'
+                }
+
+                failure {
+                    echo 'Deploy failure'
+                }
+            }
+         }
     }
 }
