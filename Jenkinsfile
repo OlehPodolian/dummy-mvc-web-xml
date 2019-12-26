@@ -32,13 +32,13 @@ pipeline {
                 stage('Deploy to staging') {
                     steps {
                         sh "scp -i /Users/olegpodolian/IdeaProjects/study/jenkins-study/jenkins-udemy-course/tomcat-demo.pem ${params.jenkins_home}/*.war ec2-user@${params.tomcat_dev}:/var/lib/tomcat8/webapps"
-                        echo 'Welcome to dev: http://${params.tomcat_dev}:8080'
+                        echo "Welcome to dev: http://${params.tomcat_dev}:8080"
                     }
                 }
                 stage('Deploy to production') {
                     steps {
                         sh "scp -i /Users/olegpodolian/IdeaProjects/study/jenkins-study/jenkins-udemy-course/tomcat-demo.pem ${params.jenkins_home}/*.war ec2-user@${params.tomcat_prod}:/var/lib/tomcat8/webapps"
-                        echo 'Welcome to prod: http://${params.tomcat_prod}:8080'
+                        echo "Welcome to prod: http://${params.tomcat_prod}:8080"
                     }
                 }
              }
