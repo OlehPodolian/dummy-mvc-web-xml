@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3375a10-14d2-4d60-8080-8d7032e7a37c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/complete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/initial">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1azH6q8HwhMEo7zLJ4iufEe7MCC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/complete" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ServingWebContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="serving-web-content.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.servingwebcontent.ServingWebContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3375a10-14d2-4d60-8080-8d7032e7a37c" name="Default Changelist" comment="" />
+      <created>1587731329543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587731329543</updated>
+      <workItem from="1587731331381" duration="1440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="242" key="Vcs.Push.Dialog.v2" timestamp="1587732101920">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="440" y="242" key="Vcs.Push.Dialog.v2/1680.-654.3008.1669/0.23.1680.972@0.23.1680.972" timestamp="1587732101920" />
+    <state x="582" y="398" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587731817845">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="582" y="398" key="git4idea.remote.GitConfigureRemotesDialog/1680.-654.3008.1669/0.23.1680.972@0.23.1680.972" timestamp="1587731817845" />
+  </component>
+</project>
